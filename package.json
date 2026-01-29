@@ -1,0 +1,30 @@
+{
+  "name": "autopwn",
+  "version": "1.0.0",
+  "description": " Map Software and Versions. Then launch custom exploits to check for vulnerabilities while causing the less dmg possible to test if the service/tech stack is vulnerable.",
+  "keywords": [
+    "exploit",
+    "surface",
+    "mapping",
+    "fingerprint"
+  ],
+  "homepage": "https://github.com/StringManolo/AutoPwn#readme",
+  "bugs": {
+    "url": "https://github.com/StringManolo/AutoPwn/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StringManolo/AutoPwn.git"
+  },
+  "license": "UNLICENSED",
+  "author": "StringManolo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-puppeteer": "node test/e2e/puppeteer.working.js"
+  },
+  "dependencies": {
+    "puppeteer": "^24.36.1"
+  }
+}
